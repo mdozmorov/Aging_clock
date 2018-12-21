@@ -1,5 +1,7 @@
 # Data and papers related to epigenetic clocks predicting age
 
+Note the original [Aging](https://github.com/mdozmorov/Aging) repository containing much more [epigenetic clock-related data](https://github.com/mdozmorov/Aging/tree/master/data). This repository is a more systematic attempt to collect epigenetic clock data and should eventually supersede the [Aging](https://github.com/mdozmorov/Aging) repository.
+
 * [Reviews](#reviews)
 * [Tools](#tools)
 
