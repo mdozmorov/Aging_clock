@@ -32,3 +32,5 @@ Note the original [Aging](https://github.com/mdozmorov/Aging) repository contain
 - https://aging.shinyapps.io/epigeneticclock/ - Calculate DNA methylation age using Horvath 2013 method. GitHub: https://github.com/aldringsvitenskap/epigeneticclock
 
 - http://www.aging.ai/ - Predict biological age from blood biomarkers
+
+- https://www.how-old.net - Detect age by photo
