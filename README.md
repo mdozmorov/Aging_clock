@@ -2,20 +2,25 @@
 
 Note the original [Aging](https://github.com/mdozmorov/Aging) repository containing much more [epigenetic clock-related data](https://github.com/mdozmorov/Aging/tree/master/data). This repository is a more systematic attempt to collect aging clock data and should eventually supersede the [Aging](https://github.com/mdozmorov/Aging) repository.
 
-* [Papers](#papers)
+* [Papers and data](#papers-and-data)
+  * [Human](#human)
+  * [Mouse](#mouse)
 * [Reviews](#reviews)
 * [Tools](#tools)
 
-## Papers
+## Papers and data
 
 - Galkin, Fedor, Alexander Aliper, Evgeny Putin, Igor Kuznetsov, Vadim N Gladyshev, and Alex Zhavoronkov. “Human Microbiome Aging Clocks Based on Deep Learning and Tandem of Permutation Feature Importance and Accumulated Local Effects.” BioRxiv, January 1, 2018, 507780. https://doi.org/10.1101/507780. - Mitotic epigenetic clock (epiTOC) for predicting cancer risk. Polycomb genes, methylation increase correlates with the estimated rate of stem cell division.
 
-- Levine, Morgan E., Ake T. Lu, Austin Quach, Brian H. Chen, Themistocles L. Assimes, Stefania Bandinelli, Lifang Hou, et al. “An Epigenetic Biomarker of Aging for Lifespan and Healthspan.” Aging 10, no. 4 (18 2018): 573–91. https://doi.org/10.18632/aging.101414. - DNA PhenoAge clock predicting multi-tissue, multi-disease age-associated mortality risk. Outperforms the original Horvath and Hannum clocks. Data: [Levine_2018](data/Levine_2018/)
-
 - Putin, Evgeny, Polina Mamoshina, Alexander Aliper, Mikhail Korzinkin, Alexey Moskalev, Alexey Kolosov, Alexander Ostrovskiy, Charles Cantor, Jan Vijg, and Alex Zhavoronkov. “Deep Biomarkers of Human Aging: Application of Deep Neural Networks to Biomarker Development.” Aging 8, no. 5 (2016): 1021–33. https://doi.org/10.18632/aging.100968. - Predicting age from blood biomarkers using deep neural networks. 21 DNNs tested, outperform simpler machine learning algorithms. Feature selection. Online version: http://www.aging.ai/
+
+### Human
+
+- Levine, Morgan E., Ake T. Lu, Austin Quach, Brian H. Chen, Themistocles L. Assimes, Stefania Bandinelli, Lifang Hou, et al. “An Epigenetic Biomarker of Aging for Lifespan and Healthspan.” Aging 10, no. 4 (18 2018): 573–91. https://doi.org/10.18632/aging.101414. - DNA PhenoAge clock predicting multi-tissue, multi-disease age-associated mortality risk. Outperforms the original Horvath and Hannum clocks. Data: [Levine_2018](data/Levine_2018/)
 
 - Yang, Zhen, Andrew Wong, Diana Kuh, Dirk S. Paul, Vardhman K. Rakyan, R. David Leslie, Shijie C. Zheng, Martin Widschwendter, Stephan Beck, and Andrew E. Teschendorff. “Correlation of an Epigenetic Mitotic Clock with Cancer Risk.” Genome Biology 17, no. 1 (03 2016): 205. https://doi.org/10.1186/s13059-016-1064-3. - Mitotic epigenetic clock (epiTOC) for predicting cancer risk. Polycomb genes, methylation increase correlates with the estimated rate of stem cell division. Data: [Yang_2016](data/Yang_2016/)
 
+### Mouse
 
 
 ## Reviews
