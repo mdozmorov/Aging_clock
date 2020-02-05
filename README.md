@@ -20,6 +20,8 @@ Note the original [Aging](https://github.com/mdozmorov/Aging) repository contain
 
 - Yang, Zhen, Andrew Wong, Diana Kuh, Dirk S. Paul, Vardhman K. Rakyan, R. David Leslie, Shijie C. Zheng, Martin Widschwendter, Stephan Beck, and Andrew E. Teschendorff. “Correlation of an Epigenetic Mitotic Clock with Cancer Risk.” Genome Biology 17, no. 1 (03 2016): 205. https://doi.org/10.1186/s13059-016-1064-3. - Mitotic epigenetic clock (epiTOC) for predicting cancer risk. Polycomb genes, methylation increase correlates with the estimated rate of stem cell division. Data: [Yang_2016](data/Yang_2016/)
 
+- Krištić, Jasminka, Frano Vučković, Cristina Menni, Lucija Klarić, Toma Keser, Ivona Beceheli, Maja Pučić-Baković, et al. “Glycans Are a Novel Biomarker of Chronological and Biological Ages.” The Journals of Gerontology. Series A, Biological Sciences and Medical Sciences 69, no. 7 (July 2014): 779–89. https://doi.org/10.1093/gerona/glt190. - IgG glycosylation linked to biological and chronological age. Formulas, dependency differ for males and females.
+
 ### Mouse
 
 - Petkovich, Daniel A., Dmitriy I. Podolskiy, Alexei V. Lobanov, Sang-Goo Lee, Richard A. Miller, and Vadim N. Gladyshev. “Using DNA Methylation Profiling to Evaluate Biological Age and Longevity Interventions.” Cell Metabolism 25, no. 4 (April 4, 2017): 954-960.e6. https://doi.org/10.1016/j.cmet.2017.03.016. - Mouse epigenetic clock predicting biological age. 90 CpGs, blood. Distinct from human epigenetic clock. Reduced Representation Bisulfite Sequencing. mm10 genomic coordinates are available in [Table S3](https://www.cell.com/cms/10.1016/j.cmet.2017.03.016/attachment/08ea219a-4d0a-430b-9062-0bc103e20c20/mmc4.xlsx), [Petkovich_2017_mouse.xlsx](data/Petkovich_2017_mouse.xlsx)
