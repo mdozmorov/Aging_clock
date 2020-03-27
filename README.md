@@ -26,6 +26,8 @@ Note the original [Aging](https://github.com/mdozmorov/Aging) repository contain
 
 - Petkovich, Daniel A., Dmitriy I. Podolskiy, Alexei V. Lobanov, Sang-Goo Lee, Richard A. Miller, and Vadim N. Gladyshev. “Using DNA Methylation Profiling to Evaluate Biological Age and Longevity Interventions.” Cell Metabolism 25, no. 4 (April 4, 2017): 954-960.e6. https://doi.org/10.1016/j.cmet.2017.03.016. - Mouse epigenetic clock predicting biological age. 90 CpGs, blood. Distinct from human epigenetic clock. Reduced Representation Bisulfite Sequencing. mm10 genomic coordinates are available in [Table S3](https://www.cell.com/cms/10.1016/j.cmet.2017.03.016/attachment/08ea219a-4d0a-430b-9062-0bc103e20c20/mmc4.xlsx), [Petkovich_2017_mouse.xlsx](data/Petkovich_2017_mouse.xlsx)
 
+- Zahn, Jacob M, Suresh Poosala, Art B Owen, Donald K Ingram, Ana Lustig, Arnell Carter, Ashani T Weeraratna, et al. “AGEMAP: A Gene Expression Database for Aging in Mice.” PLoS Genetics 3, no. 11 (2007): 12. - AGEMAP - atlas of gene expression in mouse aging project, \~9K genes, 16 tissues, over time. Neural, vascular, steroid processes affected in mice. Correlation across organisms is poor, only electron transport chain is commonly affected. Data is in the supplementary tables https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.0030201#s5, and at http://cmgm.stanford.edu/~kimlab/aging_mouse/
+
 
 
 ## Reviews
