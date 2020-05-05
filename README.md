@@ -12,6 +12,8 @@ Note the original [Aging](https://github.com/mdozmorov/Aging) repository contain
 
 - Galkin, Fedor, Alexander Aliper, Evgeny Putin, Igor Kuznetsov, Vadim N Gladyshev, and Alex Zhavoronkov. “Human Microbiome Aging Clocks Based on Deep Learning and Tandem of Permutation Feature Importance and Accumulated Local Effects.” BioRxiv, January 1, 2018, 507780. https://doi.org/10.1101/507780. - Mitotic epigenetic clock (epiTOC) for predicting cancer risk. Polycomb genes, methylation increase correlates with the estimated rate of stem cell division.
 
+- Wang, Zichen, Li Li, Benjamin S. Glicksberg, Ariel Israel, Joel T. Dudley, and Avi Ma’ayan. “[Predicting Age by Mining Electronic Medical Records with Deep Learning Characterizes Differences between Chronological and Physiological Age.](https://doi.org/10.1016/j.jbi.2017.11.003)” Journal of Biomedical Informatics 76 (December 2017) - Age prediction from EMRs using 3-layers fully-connected NN, 40% dropout, 10-fold cross-validation. Implemented in Keras on Theano, no software, only observational.
+
 - Putin, Evgeny, Polina Mamoshina, Alexander Aliper, Mikhail Korzinkin, Alexey Moskalev, Alexey Kolosov, Alexander Ostrovskiy, Charles Cantor, Jan Vijg, and Alex Zhavoronkov. “Deep Biomarkers of Human Aging: Application of Deep Neural Networks to Biomarker Development.” Aging 8, no. 5 (2016): 1021–33. https://doi.org/10.18632/aging.100968. - Predicting age from blood biomarkers using deep neural networks. 21 DNNs tested, outperform simpler machine learning algorithms. Feature selection. Online version: http://www.aging.ai/
 
 ### Human
