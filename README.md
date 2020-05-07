@@ -21,11 +21,19 @@ Note the original [Aging](https://github.com/mdozmorov/Aging) repository contain
 
 - Krištić, Jasminka, Frano Vučković, Cristina Menni, Lucija Klarić, Toma Keser, Ivona Beceheli, Maja Pučić-Baković, et al. “[Glycans Are a Novel Biomarker of Chronological and Biological Ages.](https://doi.org/10.1093/gerona/glt190)” The Journals of Gerontology. Series A, Biological Sciences and Medical Sciences 69, no. 7 (July 2014) - IgG glycosylation linked to biological and chronological age. Formulas, dependency differ for males and females.
 
+- Weidner, Carola Ingrid, Qiong Lin, Carmen Maike Koch, Lewin Eisele, Fabian Beier, Patrick Ziegler, Dirk Olaf Bauerschlag, et al. “[Aging of Blood Can Be Tracked by DNA Methylation Changes at Just Three CpG Sites.](https://doi.org/10.1186/gb-2014-15-2-r24)” Genome Biology 15, no. 2 (2014) - 3-CpG-age predictive model, selected from 102 CpGs. Pearson correlation, then LM, formula. Hypermethylated are enriched in CGIs, bivalent histone modifications. Non-tissue specific (refs to tissue specific). Sex influences age. Epigenomic enrichment using Fisher's exact. Intro about CpG-age epigenomic enrichments. Prediction studies.
+
+- Bocklandt, Sven, Wen Lin, Mary E. Sehl, Francisco J. Sánchez, Janet S. Sinsheimer, Steve Horvath, and Eric Vilain. “[Epigenetic Predictor of Age.](https://doi.org/10.1371/journal.pone.0014821)” PloS One 6, no. 6 (2011) - Methylation age predictor. Illumina 27K,  88 sites in or near 80 genes. 34 male twins, GSE28746. Three sites, EDARADD, TOM1L1, NPTX2 explain >73% of age. ComBat-corrected data for prediction. [Table S1.](https://journals.plos.org/plosone/article/file?type=supplementary&id=info:doi/10.1371/journal.pone.0014821.s002) - 88 loci significantly correlated with age TargetID represents the exact Illumina probe on the array, Chr: chromosome number, Gene_ID: NCBI Gene database locator, Symbol: gene name, r: correlation coefficient, p-value: significance of correlation, q-value: significance corrected for multiple comparisons.
+
 ### Mouse
 
 - Shavlakadze, Tea, Melody Morris, Jian Fang, Sharon X Wang, Weihua Zhou, Herman W Tse, Ricardo Mondragon-Gonzalez, Guglielmo Roma, and David J Glass. “[Age-Related Gene Expression Signatures (AGES) in Rats Demonstrate Early, Late, and Linear Transcriptional Changes from Multiple Tissues.](https://doi.org/10.1101/717835)” Preprint. Systems Biology, July 28, 2019 - AGES - multi-timepoint (6-27-month) age-related gene expression signature from liver, kidney, muscle, hippocampus of rats. [Supplementary Table S1 with data](https://www.cell.com/cell-reports/fulltext/S2211-1247(19)31091-5#secsectitle0155)
 
+- BI Ageing Clock Team, Thomas M. Stubbs, Marc Jan Bonder, Anne-Katrien Stark, Felix Krueger, Ferdinand von Meyenn, Oliver Stegle, and Wolf Reik. “[Multi-Tissue DNA Methylation Age Predictor in Mouse.](https://doi.org/10.1186/s13059-017-1203-5)” Genome Biology 18, no. 1 (December 2017) - Mouse epigenetic age clock, 329 CpGs. Elastic net regression. [GitHub repo](https://github.com/EpigenomeClock/MouseEpigeneticClock)
+
 - Petkovich, Daniel A., Dmitriy I. Podolskiy, Alexei V. Lobanov, Sang-Goo Lee, Richard A. Miller, and Vadim N. Gladyshev. “[Using DNA Methylation Profiling to Evaluate Biological Age and Longevity Interventions.](https://doi.org/10.1016/j.cmet.2017.03.016)” Cell Metabolism 25, no. 4 (April 4, 2017) - Mouse epigenetic clock predicting biological age. 90 CpGs, blood. Distinct from human epigenetic clock. Reduced Representation Bisulfite Sequencing. mm10 genomic coordinates are available in [Table S3](https://www.cell.com/cms/10.1016/j.cmet.2017.03.016/attachment/08ea219a-4d0a-430b-9062-0bc103e20c20/mmc4.xlsx), [Petkovich_2017_mouse.xlsx](data/Petkovich_2017_mouse.xlsx)
+
+- Wang, Tina, Brian Tsui, Jason F. Kreisberg, Neil A. Robertson, Andrew M. Gross, Michael Ku Yu, Hannah Carter, Holly M. Brown-Borg, Peter D. Adams, and Trey Ideker. “[Epigenetic Aging Signatures in Mice Livers Are Slowed by Dwarfism, Calorie Restriction and Rapamycin Treatment.](https://doi.org/10.1186/s13059-017-1186-2)” Genome Biology 18, no. 1 (28 2017) - [Source: Additional file 3](https://static-content.springer.com/esm/art%3A10.1186%2Fs13059-017-1186-2/MediaObjects/13059_2017_1186_MOESM3_ESM.xlsx)
 
 - Zahn, Jacob M, Suresh Poosala, Art B Owen, Donald K Ingram, Ana Lustig, Arnell Carter, Ashani T Weeraratna, et al. “[AGEMAP: A Gene Expression Database for Aging in Mice](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.0030201)” PLoS Genetics 3, no. 11 (2007): 12. - AGEMAP - atlas of gene expression in mouse aging project, \~9K genes, 16 tissues, over time. Neural, vascular, steroid processes affected in mice. Correlation across organisms is poor, only electron transport chain is commonly affected. Data is in the [supplementary tables](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.0030201#s5) and at http://cmgm.stanford.edu/~kimlab/aging_mouse/
 
@@ -33,10 +41,16 @@ Note the original [Aging](https://github.com/mdozmorov/Aging) repository contain
 
 - Nwanaji-Enwerem, Jamaji C., Marc G. Weisskopf, and Andrea A. Baccarelli. “[Multi-Tissue DNA Methylation Age: Molecular Relationships and Perspectives for Advancing Biomarker Utility.](https://doi.org/10.1016/j.arr.2018.04.005)” Ageing Research Reviews 45 (August 2018) -  Human DNA methylation aging clock, its association with cancer, immune system, metabolism, cell- and nucleic acid processes. Key references to major studies. DNAm clock is different from telomere shortening, BMI, lower than expected in some cancers.
 
+- Horvath, Steve, and Kenneth Raj. “[DNA Methylation-Based Biomarkers and the Epigenetic Clock Theory of Ageing.](https://doi.org/10.1038/s41576-018-0004-3)” Nature Reviews Genetics, April 11, 2018 - Epigenetic clock review. Horvath clock, Hannum, PhenoAge, other developments. Age-related conditions linked to epigenetic age. Epigenetic age is 40% heritable.
+
+- Field, Adam E., Neil A. Robertson, Tina Wang, Aaron Havas, Trey Ideker, and Peter D. Adams. “[DNA Methylation Clocks in Aging: Categories, Causes, and Consequences.](https://doi.org/10.1016/j.molcel.2018.08.008)” Molecular Cell 71, no. 6 (September 2018) - Review of DNA methylation age clocks. The dynamic nature of DNA methylation. References to methylation clock studies in humans, mice, other organisms. Clocks derived from multiple tissue data. Poor overlap among studies. Latest specialized clocks like EpiTOC, PhenoAge,  Box 1 - penalized regression framework for epigenetic clock.
+
 - Wagner, Wolfgang. “[Epigenetic Aging Clocks in Mice and Men.](https://doi.org/10.1186/s13059-017-1245-8)” Genome Biology 18, no. 1 (14 2017) - - Short review about methylation (epigenetic) age clock in human and mice. Direct overlap is low, morphogenesis and development are general themes of functional enrichment. [Table 1](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1245-8#Tab1) listing epigenetic clock studies and their features.
 
 
 ## Tools
+
+- [DNA methylation age and the epigenetic clock](https://horvath.genetics.ucla.edu/html/dnamage/) - Estimate DNA methylation age with R by Steve Horvath
 
 - https://aging.shinyapps.io/epigeneticclock/ - Calculate DNA methylation age using Horvath 2013 method. GitHub: https://github.com/aldringsvitenskap/epigeneticclock
 
