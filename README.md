@@ -50,7 +50,7 @@ Note the original [Aging](https://github.com/mdozmorov/Aging) repository contain
 
 ## Tools
 
-- [DNA methylation age and the epigenetic clock](https://horvath.genetics.ucla.edu/html/dnamage/) - Estimate DNA methylation age with R by Steve Horvath
+- [DNA methylation age and the epigenetic clock](https://horvath.genetics.ucla.edu/html/dnamage/) - Estimate DNA methylation age with R by Steve Horvath. [R scripts](tools/horvath_clock)
 
 - http://www.aging.ai/ - Predict biological age from blood biomarkers
 
