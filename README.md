@@ -10,7 +10,17 @@ Note the original [Aging](https://github.com/mdozmorov/Aging) repository contain
 
 ## Databases
 
+- [Aging Atlas](https://bigd.big.ac.cn/aging/index) - RNA-seq, scRNA-seq, ChIP-seq, proteomics, pharmacogenomics age-related data, human, mouse. Download.
+    - “[Aging Atlas: A Multi-Omics Database for Aging Biology](https://doi.org/10.1093/nar/gkaa894).” Nucleic Acids Research, (January 8, 2021)
+
+- [AGEMAP](http://cmgm.stanford.edu/~kimlab/aging_mouse/) - a gene expression database for aging in mice
+
+- [DAA, Digital Ageing Atlas](http://ageing-map.org/) - human/mouse phenotypes and factors associateed with aging, from genes and molecular changes to physiological/psychological changes
+
 - [Human Ageing Genomic Resources](https://genomics.senescence.info/download.html) - downloadable age-related gene lists and resources from GenAge, LongevityMap, GenDR, DrugAge, AnAge, ARCT, Etcetera
+
+- [JenAge ageing-related resources](http://info-centre.jenage.de/ageing/databases.html) - various resources, including cross-species
+
 
 ## Papers and data
 
