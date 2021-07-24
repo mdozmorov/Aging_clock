@@ -10,7 +10,7 @@ Note the original [Aging](https://github.com/mdozmorov/Aging) repository contain
 
 ## Databases
 
-- Universal DNA methylation clock.128 mammalian species, 59 tissue types, 37K highly conserved stretches of DNA, 10k methylation arrays (HorvathMammalMethylChip40).665 age-related CpGs. Three clocks: 1) directly correlating methylation with chronological age, 2) correlation with respect to the maximum lifespan of its species, 3) with respect to average age at sexual maturity. Cross-validation across species. Elastic net for predictor selection. Age and developmental processes are interlinked.
+- Universal DNA methylation clock. 128 mammalian species, 59 tissue types, 37K highly conserved stretches of DNA, 10k methylation arrays (HorvathMammalMethylChip40).665 age-related CpGs. Three clocks: 1) directly correlating methylation with chronological age, 2) correlation with respect to the maximum lifespan of its species, 3) with respect to average age at sexual maturity. Cross-validation across species. Elastic net for predictor selection. Age and developmental processes are interlinked.
     - MAMMALIAN METHYLATION CONSORTIUM, Ake T. Lu, Zhe Fei, Amin Haghani, Todd R. Robeck, Joseph A. Zoller, Caesar Z. Li, et al. “[Universal DNA Methylation Age across Mammalian Tissues](https://doi.org/10.1101/2021.01.18.426733).” Preprint. Developmental Biology, January 19, 2021. 
 
 - [Aging Atlas](https://bigd.big.ac.cn/aging/index) - RNA-seq, scRNA-seq, ChIP-seq, proteomics, pharmacogenomics age-related data, human, mouse. Download.
