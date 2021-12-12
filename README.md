@@ -3,15 +3,12 @@
 Note the original [Aging](https://github.com/mdozmorov/Aging) repository containing much more [epigenetic clock-related data](https://github.com/mdozmorov/Aging/tree/master/data). This repository is a more systematic attempt to collect aging clock data and should eventually supersede the [Aging](https://github.com/mdozmorov/Aging) repository.
 
 * [Databases](#databases)
-* [Papers and data](#papers-and-data)
+* [Papers, tools, data](#papers-tools-data)
   * [Mouse](#mouse)
 * [Reviews](#reviews)
-* [Tools](#tools)
+* [Misc](#misc)
 
 ## Databases
-
-- Universal DNA methylation clock. 128 mammalian species, 59 tissue types, 37K highly conserved stretches of DNA, 10k methylation arrays (HorvathMammalMethylChip40).665 age-related CpGs. Three clocks: 1) directly correlating methylation with chronological age, 2) correlation with respect to the maximum lifespan of its species, 3) with respect to average age at sexual maturity. Cross-validation across species. Elastic net for predictor selection. Age and developmental processes are interlinked.
-    - MAMMALIAN METHYLATION CONSORTIUM, Ake T. Lu, Zhe Fei, Amin Haghani, Todd R. Robeck, Joseph A. Zoller, Caesar Z. Li, et al. “[Universal DNA Methylation Age across Mammalian Tissues](https://doi.org/10.1101/2021.01.18.426733).” Preprint. Developmental Biology, January 19, 2021. 
 
 - [Aging Atlas](https://bigd.big.ac.cn/aging/index) - RNA-seq, scRNA-seq, ChIP-seq, proteomics, pharmacogenomics age-related data, human, mouse. Download.
     - “[Aging Atlas: A Multi-Omics Database for Aging Biology](https://doi.org/10.1093/nar/gkaa894).” Nucleic Acids Research, (January 8, 2021)
@@ -25,11 +22,21 @@ Note the original [Aging](https://github.com/mdozmorov/Aging) repository contain
 - [JenAge ageing-related resources](http://info-centre.jenage.de/ageing/databases.html) - various resources, including cross-species
 
 
-## Papers and data
+## Papers, tools, data
+
+- [AltumAge](https://github.com/rsinghlab/AltumAge) - a generalizable age predictor (multi-layer perceptron) from methylation data. Compared with Horvath, Hannum clocks, DeepMAge. Accounting for interactions. Feature importance using SHAP, DeepPINK. Important CpGs are enriched near CTCF sites. Jupyter notebook and methylation data are available. <details>
+    <summary>Preprint</summary>
+    Lima Camillo, Lucas Paulo de, Louis R Lapierre, and Ritambhara Singh. “[AltumAge: A Pan-Tissue DNA-Methylation Epigenetic Clock Based on Deep Learning](https://doi.org/10.1101/2021.06.01.446559).” Preprint. Bioinformatics, June 1, 2021. 
+</details>
 
 - Porter, Hunter L, Chase A Brown, Xiavan Roopnarinesingh, Cory B Giles, Constantin Georgescu, Willard M Freeman, and Jonathan D Wren. “[Many Chronological Aging Clocks Can Be Found throughout the Epigenome: Implications for Quantifying Biological Aging](https://doi.org/10.1111/acel.13492),” Aging Cell. 2021 Oct 16 - The largest to date epigenetic clock analysis of [Illumina 450K arrays](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL13534). ~20% of methylation loci can be used to make many different epigenetic clocks whose age prediction performance surpasses that of telomere length. The average methylation change was small (~1.5%), sites were under-represented in canonical regions of epigenetic regulation but enriched in intergenic regions and eQTLs. Tissues show largely similar aging patterns. Association between accelerated epigenetic aging and disease is weak. Introduction to epigenetic clocks (senescence, obesity, cancer). Discussion why age-related variation in methylation at clock loci is small. Elastic net regression, linear regression with interactions (tissue-age interactions are small), non-linear fit is better. Models trained on separate age groups poorly predict across age groups.
 
-- Liu, Zuyun, Pei-Lun Kuo, Steve Horvath, Eileen Crimmins, Luigi Ferrucci, and Morgan Levine. “[A New Aging Measure Captures Morbidity and Mortality Risk across Diverse Subpopulations from NHANES IV: A Cohort Study](https://doi.org/10.1371/journal.pmed.1002718).” Edited by Sanjay Basu. PLOS Medicine 15, no. 12 (December 31, 2018) - Phenotypic age from the analysis of NHANES IV data, >11K individuals 20-84 years old. Formula - Phenotypic Age is calculated using chronological age and 9 biomarkers (albumin, creatinine, glucose, [log] C-reactive protein [CRP], lymphocyte percent, mean cell volume, red blood cell distribution width, alkaline phosphatase, and white blood cell count) that were selected using a Cox proportional hazard elastic net model for mortality based on 10-fold cross-validation. 
+- Universal DNA methylation clock. 128 mammalian species, 59 tissue types, 37K highly conserved stretches of DNA, 10k methylation arrays (HorvathMammalMethylChip40).665 age-related CpGs. Three clocks: 1) directly correlating methylation with chronological age, 2) correlation with respect to the maximum lifespan of its species, 3) with respect to average age at sexual maturity. Cross-validation across species. Elastic net for predictor selection. Age and developmental processes are interlinked. <details>
+    <summary>Preprint</summary>
+    - MAMMALIAN METHYLATION CONSORTIUM, Ake T. Lu, Zhe Fei, Amin Haghani, Todd R. Robeck, Joseph A. Zoller, Caesar Z. Li, et al. “[Universal DNA Methylation Age across Mammalian Tissues](https://doi.org/10.1101/2021.01.18.426733).” Preprint. Developmental Biology, January 19, 2021. 
+</details>
+
+- Liu, Zuyun, Pei-Lun Kuo, Steve Horvath, Eileen Crimmins, Luigi Ferrucci, and Morgan Levine. “[A New Aging Measure Captures Morbidity and Mortality Risk across Diverse Subpopulations from NHANES IV: A Cohort Study](https://doi.org/10.1371/journal.pmed.1002718).” Edited by Sanjay Basu. PLOS Medicine 15, no. 12 (December 31, 2018) - Phenotypic age from the analysis of NHANES IV data, >11K individuals 20-84 years old. Formula - Phenotypic Age is calculated using chronological age and 9 biomarkers (albumin, creatinine, glucose, [log] C-reactive protein [CRP], lymphocyte percent, mean cell volume, red blood cell distribution width, alkaline phosphatase, and white blood cell count) that were selected using a Cox proportional hazard elastic net model for mortality based on 10-fold cross-validation.
 
 - Galkin, Fedor, Alexander Aliper, Evgeny Putin, Igor Kuznetsov, Vadim N Gladyshev, and Alex Zhavoronkov. “[Human Microbiome Aging Clocks Based on Deep Learning and Tandem of Permutation Feature Importance and Accumulated Local Effects.](https://doi.org/10.1101/507780)” BioRxiv, January 1, 2018, 507780 - Mitotic epigenetic clock (epiTOC) for predicting cancer risk. Polycomb genes, methylation increase correlates with the estimated rate of stem cell division.
 
@@ -70,7 +77,7 @@ Note the original [Aging](https://github.com/mdozmorov/Aging) repository contain
 - Wagner, Wolfgang. “[Epigenetic Aging Clocks in Mice and Men.](https://doi.org/10.1186/s13059-017-1245-8)” Genome Biology 18, no. 1 (14 2017) - - Short review about methylation (epigenetic) age clock in human and mice. Direct overlap is low, morphogenesis and development are general themes of functional enrichment. [Table 1](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1245-8#Tab1) listing epigenetic clock studies and their features.
 
 
-## Tools
+## Misc
 
 - [DNA methylation age and the epigenetic clock](https://horvath.genetics.ucla.edu/html/dnamage/) - Estimate DNA methylation age with R by Steve Horvath. [R scripts](tools/horvath_clock)
 
