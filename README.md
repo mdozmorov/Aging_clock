@@ -15,6 +15,11 @@ Note the original [Aging](https://github.com/mdozmorov/Aging) repository contain
 
 - [AGEMAP](http://cmgm.stanford.edu/~kimlab/aging_mouse/) - a gene expression database for aging in mice
 
+- [ClockBase](https://www.clockbase.org/) - biological age predictor for human and mouse. Combines multiple predictor (Horvath, Hannum, PhenoAge, DunedinPOAm, DunedinPACE, 11 aging clock models total). Reprocessing of GEO datasets, over 300,000 samples (downloadable). An interactive analysis tool to allow users to perform statistical analyses and visualization of biological age. R package. <details>
+    <summary>Paper</summary>
+    Ying, Kejun, Alexander Tyshkovskiy, Alexandre Trapp, Hanna Liu, Mahdi Moqri, Csaba Kerepesi, and Vadim N. Gladyshev. “ClockBase: A Comprehensive Platform for Biological Age Profiling in Human and Mouse.” Preprint. Bioinformatics, March 1, 2023. https://doi.org/10.1101/2023.02.28.530532.
+</details>
+
 - [DAA, Digital Ageing Atlas](http://ageing-map.org/) - human/mouse phenotypes and factors associateed with aging, from genes and molecular changes to physiological/psychological changes
 
 - [Human Ageing Genomic Resources](https://genomics.senescence.info/download.html) - downloadable age-related gene lists and resources from GenAge, LongevityMap, GenDR, DrugAge, AnAge, ARCT, Etcetera
