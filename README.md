@@ -10,6 +10,11 @@ Note the original [Aging](https://github.com/mdozmorov/Aging) repository contain
 
 ## Databases
 
+- [Open Genes](https://open-genes.com/) - age-related 2,402 genes, with comprehensive description, manually curated from over 1,700 publications. Human, mouse, model organisms, homolog genes. Classified into 6 types of studies, 12 criteria, ranked by evidence. API access, [download](https://open-genes.com/download). <details>
+    <summary>Paper</summary>
+    Rafikova, Ekaterina, Nikolay Nemirovich-Danchenko, Anna Ogmen, Anna Parfenenkova, Anastasiia Velikanova, Stanislav Tikhonov, Leonid Peshkin, et al. “Open Genes—a New Comprehensive Database of Human Genes Associated with Aging and Longevity.” Nucleic Acids Research 52 (2024).
+</details>
+
 - [Aging Atlas](https://bigd.big.ac.cn/aging/index) - RNA-seq, scRNA-seq, ChIP-seq, proteomics, pharmacogenomics age-related data, human, mouse. Download.
     - “[Aging Atlas: A Multi-Omics Database for Aging Biology](https://doi.org/10.1093/nar/gkaa894).” Nucleic Acids Research, (January 8, 2021)
 
