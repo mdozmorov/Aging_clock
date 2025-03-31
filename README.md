@@ -2,6 +2,11 @@
 
 Note the original [Aging](https://github.com/mdozmorov/Aging) repository containing much more [epigenetic clock-related data](https://github.com/mdozmorov/Aging/tree/master/data). This repository is a more systematic attempt to collect aging clock data and should eventually supersede the [Aging](https://github.com/mdozmorov/Aging) repository.
 
+The [tools](tools) folder contain code for epigenetic clock calculations.
+- [epigenetic_ageing_clock](tools/epigenetic_ageing_clock) - epigenetic and mitotic clocks using Illumina 450K IDAT files (including preprocessing), [GitHub](https://github.com/demh/epigenetic_ageing_clock)
+- [epigeneticclock](tools/epigeneticclock) - Shiny app for classical Horvath clock calculation, [GitHub](https://github.com/aldringsvitenskap/epigeneticclock)
+- [horvath_clock](tools/horvath_clock) - R tutorial for DNA methylation age and the epigenetic clock, from Horvath's website (no longer available)
+
 * [Databases](#databases)
 * [Papers, tools, data](#papers-tools-data)
   * [Mouse](#mouse)
