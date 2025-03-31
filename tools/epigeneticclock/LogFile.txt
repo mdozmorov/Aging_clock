@@ -1,0 +1,2 @@
+The methylation data set contains 16 samples (e.g. arrays) and  27578  probes.
+ The individual samples appear to be fine. 
