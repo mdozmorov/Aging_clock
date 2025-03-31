@@ -1,4 +1,5 @@
+.git*
 README.xlsx
 .Rapp.history
 
-.Rproj.user
+*.Rproj
