@@ -96,6 +96,11 @@ The [tools](tools) folder contain code for epigenetic clock calculations.
 
 ### Mouse
 
+- [scEpiAge](https://github.com/EpigenomeClock/scEpiAge) - single-cell methylation-based epigenetic clock, mouse blood cells. Single-cell GNAme data (scM&T technology) from peripheral blood of mice 10-101 weeks. Elastic net regression better handles binary, sparse data. Cell type effect stronger than age effect. CD4+ ad CD8+ T cells younger compared to B-cells. Outperforms scAge. New ([GSE225173](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE225173) methylation coverage signal) and public datasets. [Code](https://github.com/EpigenomeClock/scAgingPaper) to reproduce analyses. <details>
+    <summary>Paper</summary>
+    Bonder, Marc Jan, Stephen J. Clark, Felix Krueger, Siyuan Luo, João Agostinho De Sousa, Aida M. Hashtroud, Thomas M. Stubbs, et al. “scEpiAge: An Age Predictor Highlighting Single-Cell Ageing Heterogeneity in Mouse Blood.” Nature Communications 15, no. 1 (August 31, 2024): 7567. https://doi.org/10.1038/s41467-024-51833-5.
+</details>
+
 - Shavlakadze, Tea, Melody Morris, Jian Fang, Sharon X Wang, Weihua Zhou, Herman W Tse, Ricardo Mondragon-Gonzalez, Guglielmo Roma, and David J Glass. “[Age-Related Gene Expression Signatures (AGES) in Rats Demonstrate Early, Late, and Linear Transcriptional Changes from Multiple Tissues.](https://doi.org/10.1101/717835)” Preprint. Systems Biology, July 28, 2019 - AGES - multi-timepoint (6-27-month) age-related gene expression signature from liver, kidney, muscle, hippocampus of rats. [Supplementary Table S1 with data](https://www.cell.com/cell-reports/fulltext/S2211-1247(19)31091-5#secsectitle0155)
 
 - BI Ageing Clock Team, Thomas M. Stubbs, Marc Jan Bonder, Anne-Katrien Stark, Felix Krueger, Ferdinand von Meyenn, Oliver Stegle, and Wolf Reik. “[Multi-Tissue DNA Methylation Age Predictor in Mouse.](https://doi.org/10.1186/s13059-017-1203-5)” Genome Biology 18, no. 1 (December 2017) - Mouse epigenetic age clock, 329 CpGs. Elastic net regression. [GitHub repo](https://github.com/EpigenomeClock/MouseEpigeneticClock)
