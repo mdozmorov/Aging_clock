@@ -49,6 +49,11 @@ The [tools](tools) folder contain code for epigenetic clock calculations.
     Teschendorff, Andrew E. “Epigenetic Ageing Clocks: Statistical Methods and Emerging Computational Challenges.” Nature Reviews Genetics 26 (2025). https://doi.org/10.1038/s41576-024-00807-w
 </details>
 
+- [GP-age](https://github.com/mirivar/GP-age) Methylation age meta analysis, 11,910 samples from [meth_atlas](https://github.com/nloyfer/meth_atlas). 80 CpGs most Spearman correlated with age, k-means clustered into 30 clusters and 30 CpGs selected. Gaussian Process Regression model. Median absolute error 2.1 years, outperforms Horvath, Hannum. [Supplementary](https://www.sciencedirect.com/science/article/pii/S2667237523002114#appsec2) Table S2. List of 1,034 age-correlative CpG sites. Table S3. List of 71 CpG sites with a Spearman correlation and methylation range over the defined ratios. <details>
+    <summary>Paper</summary>
+    Varshavsky, Miri, Gil Harari, Benjamin Glaser, Yuval Dor, Ruth Shemer, and Tommy Kaplan. “Accurate Age Prediction from Blood Using a Small Set of DNA Methylation Sites and a Cohort-Based Machine Learning Algorithm.” Cell Reports Methods 3, no. 9 (2023): 100567. https://doi.org/10.1016/j.crmeth.2023.100567.
+</details>
+
 - Comparison of 11 epigenetic clocks (Bocklandt, Garagnani, Horwath1, Hannum, Weidner, Lin, Vidal-Bralo, Yang, Zhang, Levine, Horvath2), human. CpG sites are largely non-overlapping, differ in regards to the consistency of their age correlation across tissues/cells, gene expression. The original Horvath clock performs best overall and across tissues. Network analysis (WGCNA) identified senescence, mitochondrial and metabolic (OXPHOS) pathways. Tumors show accelerated epigenetic clocks. <details>
     <summary>Paper</summary>
     Liu, Zuyun, Diana Leung, Kyra Thrush, Wei Zhao, Scott Ratliff, Toshiko Tanaka, Lauren L. Schmitz, Jennifer A. Smith, Luigi Ferrucci, and Morgan E. Levine. “Underlying Features of Epigenetic Aging Clocks in Vivo and in Vitro.” Aging Cell 19, no. 10 (October 2020): e13229. https://doi.org/10.1111/acel.13229.
