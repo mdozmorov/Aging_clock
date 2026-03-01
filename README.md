@@ -39,6 +39,8 @@ The [tools](tools) folder contain code for epigenetic clock calculations.
 
 ## Papers, tools, data
 
+- Chen, Q., Dwaraka, V.B., Carreras-Gallo, N. et al. OMICmAge quantifies biological age by integrating multi-omics with electronic medical records. Nat Aging (2026). https://doi.org/10.1038/s43587-026-01073-7 - age prediction from electronic health records, methylation. [OMICmAge](https://github.com/LaskySuLab/OMICmAge/) - metabolomic, proteomic, clinical variables.
+
 - Age-related genes from multi-omics of human blood. Muliple methylation (Illumina EPIC, sequencing), RNA-seq datasets (Table 1). RNA-seq is a poor predictor of aging, methylation is much better. CpGs and genes associated with aging not affected by cell composition changes. Age-associated CpGs predict survival. [GitHub](https://github.com/moqri/blood-aging-genes). [Supplementary Data 1](https://www.nature.com/articles/s41467-025-67369-1#Sec21) - 721 CpGs and the associated 106 genes, correlated with age by methylation and gene expression. <details>
     <summary>Paper</summary>
     Moqri, Mahdi, Jesse Poganik, Chiara Herzog, et al. “Integrative Epigenetics and Transcriptomics Identify Aging Genes in Human Blood.” Preprint, Systems Biology, June 3, 2024. https://doi.org/10.1101/2024.05.30.596713.
