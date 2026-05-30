@@ -140,4 +140,6 @@ The [tools](tools) folder contain code for epigenetic clock calculations.
 
 - http://www.aging.ai/ - Predict biological age from blood biomarkers
 
+- [Longevity World Cup](https://www.longevityworldcup.com/onboarding/pheno-age.html) - open-source Pheno Age calculator and public leaderboard for comparing blood-biomarker biological-age reductions. [GitHub](https://github.com/nopara73/LongevityWorldCup)
+
 - https://www.how-old.net - Detect age by photo
