@@ -48,6 +48,11 @@ Selected data files available in the [data](data/) folder.
 
 ## Papers, tools, data
 
+- [TACO](https://app.gladyshevlab.org/TACO/) (the Transcriptomic Age Calculator Online) - rodent and multi-species biomarkers of chronological age and mortality features. 25 tissues, 4 mammals (mouse, rat, macaque, human). Introduction to existing epigenetic, transcriptomic, proteomic multi-species clocks. Transcriptomic and DNA methylation clocks showed correlated age acceleration in human blood, in chromatin-associated module clock. Detailed biological investigation. [tAge](https://github.com/Gladyshev-Lab/tAge) R package for transcriptomic biological age prediction from gene expression data. <details>
+    <summary>Paper</summary>
+    Tyshkovskiy, Alexander, Daria Kholdina, Maria Davitadze, et al. “Universal Transcriptomic Hallmarks of Mammalian Ageing and Mortality.” Nature 654, no. 8117 (2026): 173–88. https://doi.org/10.1038/s41586-026-10542-3.
+</details>
+
 - Chen, Q., Dwaraka, V.B., Carreras-Gallo, N. et al. OMICmAge quantifies biological age by integrating multi-omics with electronic medical records. Nat Aging (2026). https://doi.org/10.1038/s43587-026-01073-7 - age prediction from electronic health records, methylation. [OMICmAge](https://github.com/LaskySuLab/OMICmAge/) - metabolomic, proteomic, clinical variables.
 
 - Age-related genes from multi-omics of human blood. Muliple methylation (Illumina EPIC, sequencing), RNA-seq datasets (Table 1). RNA-seq is a poor predictor of aging, methylation is much better. CpGs and genes associated with aging not affected by cell composition changes. Age-associated CpGs predict survival. [GitHub](https://github.com/moqri/blood-aging-genes). [Supplementary Data 1](https://www.nature.com/articles/s41467-025-67369-1#Sec21) - 721 CpGs and the associated 106 genes, correlated with age by methylation and gene expression. <details>
