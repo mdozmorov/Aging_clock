@@ -29,8 +29,10 @@ Selected data files available in the [data](data/) folder.
     Rafikova, Ekaterina, Nikolay Nemirovich-Danchenko, Anna Ogmen, Anna Parfenenkova, Anastasiia Velikanova, Stanislav Tikhonov, Leonid Peshkin, et al. “Open Genes—a New Comprehensive Database of Human Genes Associated with Aging and Longevity.” Nucleic Acids Research 52 (2024).
 </details>
 
-- [Aging Atlas](https://bigd.big.ac.cn/aging/index) - RNA-seq, scRNA-seq, ChIP-seq, proteomics, pharmacogenomics age-related data, human, mouse. Download.
-    - “[Aging Atlas: A Multi-Omics Database for Aging Biology](https://doi.org/10.1093/nar/gkaa894).” Nucleic Acids Research, (January 8, 2021)
+- [Aging Atlas](https://bigd.big.ac.cn/aging/index) - RNA-seq, scRNA-seq, ChIP-seq, proteomics, pharmacogenomics age-related data, human, mouse. Download. <details>
+    <summary>Paper</summary>
+    “[Aging Atlas: A Multi-Omics Database for Aging Biology](https://doi.org/10.1093/nar/gkaa894).” Nucleic Acids Research, January 8, 2021.
+</details>
 
 - [AGEMAP](http://cmgm.stanford.edu/~kimlab/aging_mouse/) - a gene expression database for aging in mice
 
@@ -53,7 +55,10 @@ Selected data files available in the [data](data/) folder.
     Tyshkovskiy, Alexander, Daria Kholdina, Maria Davitadze, et al. “Universal Transcriptomic Hallmarks of Mammalian Ageing and Mortality.” Nature 654, no. 8117 (2026): 173–88. https://doi.org/10.1038/s41586-026-10542-3.
 </details>
 
-- Chen, Q., Dwaraka, V.B., Carreras-Gallo, N. et al. OMICmAge quantifies biological age by integrating multi-omics with electronic medical records. Nat Aging (2026). https://doi.org/10.1038/s43587-026-01073-7 - age prediction from electronic health records, methylation. [OMICmAge](https://github.com/LaskySuLab/OMICmAge/) - metabolomic, proteomic, clinical variables.
+- Age prediction from electronic health records and methylation. [OMICmAge](https://github.com/LaskySuLab/OMICmAge/) integrates metabolomic, proteomic, and clinical variables. <details>
+    <summary>Paper</summary>
+    Chen, Q., Dwaraka, V. B., Carreras-Gallo, N., et al. “OMICmAge Quantifies Biological Age by Integrating Multi-Omics with Electronic Medical Records.” Nature Aging (2026). https://doi.org/10.1038/s43587-026-01073-7.
+</details>
 
 - Age-related genes from multi-omics of human blood. Muliple methylation (Illumina EPIC, sequencing), RNA-seq datasets (Table 1). RNA-seq is a poor predictor of aging, methylation is much better. CpGs and genes associated with aging not affected by cell composition changes. Age-associated CpGs predict survival. [GitHub](https://github.com/moqri/blood-aging-genes). [Supplementary Data 1](https://www.nature.com/articles/s41467-025-67369-1#Sec21) - 721 CpGs and the associated 106 genes, correlated with age by methylation and gene expression. <details>
     <summary>Paper</summary>
@@ -81,7 +86,7 @@ Selected data files available in the [data](data/) folder.
 </details>
 
 - [AltumAge](https://github.com/rsinghlab/AltumAge) - a generalizable age predictor (multi-layer perceptron) from methylation data. Compared with Horvath, Hannum clocks, DeepMAge. Accounting for interactions. Feature importance using SHAP, DeepPINK. Important CpGs are enriched near CTCF sites. Jupyter notebook and methylation data are available. <details>
-    <summary>Preprint</summary>
+    <summary>Paper</summary>
     Lima Camillo, Lucas Paulo de, Louis R Lapierre, and Ritambhara Singh. “[AltumAge: A Pan-Tissue DNA-Methylation Epigenetic Clock Based on Deep Learning](https://doi.org/10.1101/2021.06.01.446559).” Preprint. Bioinformatics, June 1, 2021. 
 </details>
 
@@ -96,8 +101,8 @@ Selected data files available in the [data](data/) folder.
 </details>
 
 - Universal DNA methylation clock. 128 mammalian species, 59 tissue types, 37K highly conserved stretches of DNA, 10k methylation arrays (HorvathMammalMethylChip40).665 age-related CpGs. Three clocks: 1) directly correlating methylation with chronological age, 2) correlation with respect to the maximum lifespan of its species, 3) with respect to average age at sexual maturity. Cross-validation across species. Elastic net for predictor selection. Age and developmental processes are interlinked. <details>
-    <summary>Preprint</summary>
-    - MAMMALIAN METHYLATION CONSORTIUM, Ake T. Lu, Zhe Fei, Amin Haghani, Todd R. Robeck, Joseph A. Zoller, Caesar Z. Li, et al. “[Universal DNA Methylation Age across Mammalian Tissues](https://doi.org/10.1101/2021.01.18.426733).” Preprint. Developmental Biology, January 19, 2021. 
+    <summary>Paper</summary>
+    MAMMALIAN METHYLATION CONSORTIUM, Ake T. Lu, Zhe Fei, Amin Haghani, Todd R. Robeck, Joseph A. Zoller, Caesar Z. Li, et al. “[Universal DNA Methylation Age across Mammalian Tissues](https://doi.org/10.1101/2021.01.18.426733).” Preprint. Developmental Biology, January 19, 2021.
 </details>
 
 - [RNAAgeCalc](http://www.ams.sunysb.edu/~pfkuan/softwares.html#RNAAgeCalc) - [R/Bioconductor](https://bioconductor.org/packages/release/bioc/html/RNAAgeCalc.html) package, [Python](https://pypi.org/project/racpy/) package and [Shiny app](https://xuren2120.shinyapps.io/RNAAgeCalcshiny/) for cross-tissue and tissue-specific age predictors from RNA-seq. Racial and tissue differences, mutation burden, mortality risk and cancer stage (application to TCGA data) are associated with transcriptional age. Data from GTeX, tissue-specific and meta analysis, elastic net outperforms  GBM, RF, SVR, LDA. [Supplementary tables](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0237006#sec021) - age-associated gene lists. <details>
@@ -105,25 +110,55 @@ Selected data files available in the [data](data/) folder.
     Ren, Xu, and Pei Fen Kuan. “RNAAgeCalc: A Multi-Tissue Transcriptional Age Calculator.” Edited by Yun Li. PLOS ONE 15, no. 8 (August 4, 2020): e0237006. https://doi.org/10.1371/journal.pone.0237006.
 </details>
 
-- Liu, Zuyun, Pei-Lun Kuo, Steve Horvath, Eileen Crimmins, Luigi Ferrucci, and Morgan Levine. “[A New Aging Measure Captures Morbidity and Mortality Risk across Diverse Subpopulations from NHANES IV: A Cohort Study](https://doi.org/10.1371/journal.pmed.1002718).” Edited by Sanjay Basu. PLOS Medicine 15, no. 12 (December 31, 2018) - Phenotypic age from the analysis of NHANES IV data, >11K individuals 20-84 years old. Formula - Phenotypic Age is calculated using chronological age and 9 biomarkers (albumin, creatinine, glucose, [log] C-reactive protein [CRP], lymphocyte percent, mean cell volume, red blood cell distribution width, alkaline phosphatase, and white blood cell count) that were selected using a Cox proportional hazard elastic net model for mortality based on 10-fold cross-validation.
+- Phenotypic age from analysis of NHANES IV data from more than 11,000 individuals aged 20–84 years. The formula uses chronological age and nine biomarkers—albumin, creatinine, glucose, log C-reactive protein (CRP), lymphocyte percent, mean cell volume, red blood cell distribution width, alkaline phosphatase, and white blood cell count—selected with a Cox proportional-hazard elastic net model for mortality using 10-fold cross-validation. <details>
+    <summary>Paper</summary>
+    Liu, Zuyun, Pei-Lun Kuo, Steve Horvath, Eileen Crimmins, Luigi Ferrucci, and Morgan Levine. “[A New Aging Measure Captures Morbidity and Mortality Risk across Diverse Subpopulations from NHANES IV: A Cohort Study](https://doi.org/10.1371/journal.pmed.1002718).” Edited by Sanjay Basu. PLOS Medicine 15, no. 12 (December 31, 2018).
+</details>
 
-- <a name="Levine_2018"></a>Levine, Morgan E., Ake T. Lu, Austin Quach, Brian H. Chen, Themistocles L. Assimes, Stefania Bandinelli, Lifang Hou, et al. "[An Epigenetic Biomarker of Aging for Lifespan and Healthspan.](https://doi.org/10.18632/aging.101414)" Aging 10, no. 4 (18 2018) - DNA PhenoAge clock predicting multi-tissue, multi-disease age-associated mortality risk. Outperforms the original Horvath and Hannum clocks. [Data: Levine_2018](data/Levine_2018/)
+- <a name="Levine_2018"></a>DNA PhenoAge clock predicting multi-tissue, multi-disease age-associated mortality risk. It outperforms the original Horvath and Hannum clocks. [Data: Levine_2018](data/Levine_2018/) <details>
+    <summary>Paper</summary>
+    Levine, Morgan E., Ake T. Lu, Austin Quach, Brian H. Chen, Themistocles L. Assimes, Stefania Bandinelli, Lifang Hou, et al. “[An Epigenetic Biomarker of Aging for Lifespan and Healthspan](https://doi.org/10.18632/aging.101414).” Aging 10, no. 4 (2018).
+</details>
 
-- Galkin, Fedor, Alexander Aliper, Evgeny Putin, Igor Kuznetsov, Vadim N Gladyshev, and Alex Zhavoronkov. “[Human Microbiome Aging Clocks Based on Deep Learning and Tandem of Permutation Feature Importance and Accumulated Local Effects.](https://doi.org/10.1101/507780)” BioRxiv, January 1, 2018, 507780 - Mitotic epigenetic clock (epiTOC) for predicting cancer risk. Polycomb genes, methylation increase correlates with the estimated rate of stem cell division.
+- Human microbiome aging clocks based on deep learning and tandem permutation feature importance and accumulated local effects. <details>
+    <summary>Paper</summary>
+    Galkin, Fedor, Alexander Aliper, Evgeny Putin, Igor Kuznetsov, Vadim N. Gladyshev, and Alex Zhavoronkov. “[Human Microbiome Aging Clocks Based on Deep Learning and Tandem of Permutation Feature Importance and Accumulated Local Effects](https://doi.org/10.1101/507780).” bioRxiv, January 1, 2018, 507780.
+</details>
 
-- Wang, Zichen, Li Li, Benjamin S. Glicksberg, Ariel Israel, Joel T. Dudley, and Avi Ma’ayan. “[Predicting Age by Mining Electronic Medical Records with Deep Learning Characterizes Differences between Chronological and Physiological Age.](https://doi.org/10.1016/j.jbi.2017.11.003)” Journal of Biomedical Informatics 76 (December 2017) - Age prediction from EMRs using 3-layers fully-connected NN, 40% dropout, 10-fold cross-validation. Implemented in Keras on Theano, no software, only observational.
+- Age prediction from electronic medical records using a three-layer fully connected neural network, 40% dropout, and 10-fold cross-validation. Implemented in Keras on Theano; no software was released, and the study is observational. <details>
+    <summary>Paper</summary>
+    Wang, Zichen, Li Li, Benjamin S. Glicksberg, Ariel Israel, Joel T. Dudley, and Avi Ma’ayan. “[Predicting Age by Mining Electronic Medical Records with Deep Learning Characterizes Differences between Chronological and Physiological Age](https://doi.org/10.1016/j.jbi.2017.11.003).” Journal of Biomedical Informatics 76 (December 2017).
+</details>
 
-- <a name="Wang_2017"></a>[Data: Wang_2017.xlsx](data/Wang_2017.xlsx) - Mouse epigenetic clock, CpG sites and genes. From Wang, Tina, Brian Tsui, Jason F. Kreisberg, Neil A. Robertson, Andrew M. Gross, Michael Ku Yu, Hannah Carter, Holly M. Brown-Borg, Peter D. Adams, and Trey Ideker. "Epigenetic Aging Signatures in Mice Livers Are Slowed by Dwarfism, Calorie Restriction and Rapamycin Treatment." Genome Biology 18, no. 1 (28 2017): 57. https://doi.org/10.1186/s13059-017-1186-2. [Source: Additional file 3](https://static-content.springer.com/esm/art%3A10.1186%2Fs13059-017-1186-2/MediaObjects/13059_2017_1186_MOESM3_ESM.xlsx)
+- <a name="Wang_2017"></a>[Data: Wang_2017.xlsx](data/Wang_2017.xlsx) - Mouse epigenetic clock CpG sites and genes. [Source: Additional file 3](https://static-content.springer.com/esm/art%3A10.1186%2Fs13059-017-1186-2/MediaObjects/13059_2017_1186_MOESM3_ESM.xlsx) <details>
+    <summary>Paper</summary>
+    Wang, Tina, Brian Tsui, Jason F. Kreisberg, Neil A. Robertson, Andrew M. Gross, Michael Ku Yu, Hannah Carter, Holly M. Brown-Borg, Peter D. Adams, and Trey Ideker. “Epigenetic Aging Signatures in Mice Livers Are Slowed by Dwarfism, Calorie Restriction and Rapamycin Treatment.” Genome Biology 18, no. 1 (2017): 57. https://doi.org/10.1186/s13059-017-1186-2.
+</details>
 
-- Putin, Evgeny, Polina Mamoshina, Alexander Aliper, Mikhail Korzinkin, Alexey Moskalev, Alexey Kolosov, Alexander Ostrovskiy, Charles Cantor, Jan Vijg, and Alex Zhavoronkov. “[Deep Biomarkers of Human Aging: Application of Deep Neural Networks to Biomarker Development.](https://doi.org/10.18632/aging.100968)” Aging 8, no. 5 (2016) - Predicting age from blood biomarkers using deep neural networks. 21 DNNs tested, outperform simpler machine learning algorithms. Feature selection. Online version: http://www.aging.ai/
+- Predicting age from blood biomarkers using deep neural networks. Twenty-one DNNs were tested and outperformed simpler machine-learning algorithms; the study includes feature selection. Online version: http://www.aging.ai/ <details>
+    <summary>Paper</summary>
+    Putin, Evgeny, Polina Mamoshina, Alexander Aliper, Mikhail Korzinkin, Alexey Moskalev, Alexey Kolosov, Alexander Ostrovskiy, Charles Cantor, Jan Vijg, and Alex Zhavoronkov. “[Deep Biomarkers of Human Aging: Application of Deep Neural Networks to Biomarker Development](https://doi.org/10.18632/aging.100968).” Aging 8, no. 5 (2016).
+</details>
 
-- <a name="Yang_2016"></a>Yang, Zhen, Andrew Wong, Diana Kuh, Dirk S. Paul, Vardhman K. Rakyan, R. David Leslie, Shijie C. Zheng, Martin Widschwendter, Stephan Beck, and Andrew E. Teschendorff. "[Correlation of an Epigenetic Mitotic Clock with Cancer Risk.](https://doi.org/10.1186/s13059-016-1064-3)" Genome Biology 17, no. 1 (03 2016) - Mitotic epigenetic clock (epiTOC) for predicting cancer risk. Polycomb genes, methylation increase correlates with the estimated rate of stem cell division. [Data: Yang_2016](data/Yang_2016/)
+- <a name="Yang_2016"></a>Mitotic epigenetic clock (epiTOC) for predicting cancer risk. Methylation increases in Polycomb genes correlate with the estimated rate of stem-cell division. [Data: Yang_2016](data/Yang_2016/) <details>
+    <summary>Paper</summary>
+    Yang, Zhen, Andrew Wong, Diana Kuh, Dirk S. Paul, Vardhman K. Rakyan, R. David Leslie, Shijie C. Zheng, Martin Widschwendter, Stephan Beck, and Andrew E. Teschendorff. “[Correlation of an Epigenetic Mitotic Clock with Cancer Risk](https://doi.org/10.1186/s13059-016-1064-3).” Genome Biology 17, no. 1 (2016).
+</details>
 
-- Weidner, Carola Ingrid, Qiong Lin, Carmen Maike Koch, Lewin Eisele, Fabian Beier, Patrick Ziegler, Dirk Olaf Bauerschlag, et al. “Aging of Blood Can Be Tracked by DNA Methylation Changes at Just Three CpG Sites.” Genome Biology 15, no. 2 (2014): R24. https://doi.org/10.1186/gb-2014-15-2-r24. - 3-CpG-age predictive model, selected from 102 CpGs. Pearson correlation, then LM, formula. Hypermethylated are enriched in CGIs, bivalent histone modifications. Non-tissue specific (refs to tissue specific). Sex influences age. Epigenomic enrichment using Fisher's exact. Intro about CpG-age epigenomic enrichments. Prediction studies.
+- Three-CpG age-predictive model selected from 102 CpGs using Pearson correlation followed by linear modeling. Hypermethylated sites are enriched in CpG islands and bivalent histone modifications. The study addresses non-tissue-specific prediction, sex effects, and epigenomic enrichment using Fisher's exact test. <details>
+    <summary>Paper</summary>
+    Weidner, Carola Ingrid, Qiong Lin, Carmen Maike Koch, Lewin Eisele, Fabian Beier, Patrick Ziegler, Dirk Olaf Bauerschlag, et al. “Aging of Blood Can Be Tracked by DNA Methylation Changes at Just Three CpG Sites.” Genome Biology 15, no. 2 (2014): R24. https://doi.org/10.1186/gb-2014-15-2-r24.
+</details>
 
-- Krištić, Jasminka, Frano Vučković, Cristina Menni, Lucija Klarić, Toma Keser, Ivona Beceheli, Maja Pučić-Baković, et al. “[Glycans Are a Novel Biomarker of Chronological and Biological Ages.](https://doi.org/10.1093/gerona/glt190)” The Journals of Gerontology. Series A, Biological Sciences and Medical Sciences 69, no. 7 (July 2014) - IgG glycosylation linked to biological and chronological age. Formulas, dependency differ for males and females.
+- IgG glycosylation is linked to biological and chronological age; formulas and dependencies differ between males and females. <details>
+    <summary>Paper</summary>
+    Krištić, Jasminka, Frano Vučković, Cristina Menni, Lucija Klarić, Toma Keser, Ivona Beceheli, Maja Pučić-Baković, et al. “[Glycans Are a Novel Biomarker of Chronological and Biological Ages](https://doi.org/10.1093/gerona/glt190).” The Journals of Gerontology. Series A, Biological Sciences and Medical Sciences 69, no. 7 (July 2014).
+</details>
 
-- Bocklandt, Sven, Wen Lin, Mary E. Sehl, Francisco J. Sánchez, Janet S. Sinsheimer, Steve Horvath, and Eric Vilain. “Epigenetic Predictor of Age.” PloS One 6, no. 6 (2011): e14821. https://doi.org/10.1371/journal.pone.0014821. - Methylation age predictor. Illumina 27K,  88 sites in or near 80 genes. 34 male twins, GSE28746. Three sites, EDARADD, TOM1L1, NPTX2 explain >73% of age. ComBat-corrected data for prediction. [Table S1.](https://journals.plos.org/plosone/article/file?type=supplementary&id=info:doi/10.1371/journal.pone.0014821.s002) - 88 loci significantly correlated with age TargetID represents the exact Illumina probe on the array, Chr: chromosome number, Gene_ID: NCBI Gene database locator, Symbol: gene name, r: correlation coefficient, p-value: significance of correlation, q-value: significance corrected for multiple comparisons.
+- Methylation age predictor based on the Illumina 27K array, 88 sites in or near 80 genes, and 34 male twins from GSE28746. Three sites—EDARADD, TOM1L1, and NPTX2—explain more than 73% of age. Uses ComBat-corrected data for prediction. [Table S1](https://journals.plos.org/plosone/article/file?type=supplementary&id=info:doi/10.1371/journal.pone.0014821.s002) lists 88 loci significantly correlated with age, including Illumina probe ID, chromosome, NCBI Gene ID, gene symbol, correlation, p-value, and multiple-testing-corrected q-value. <details>
+    <summary>Paper</summary>
+    Bocklandt, Sven, Wen Lin, Mary E. Sehl, Francisco J. Sánchez, Janet S. Sinsheimer, Steve Horvath, and Eric Vilain. “Epigenetic Predictor of Age.” PLOS ONE 6, no. 6 (2011): e14821. https://doi.org/10.1371/journal.pone.0014821.
+</details>
 
 ### Mouse clocks
 
@@ -132,25 +167,52 @@ Selected data files available in the [data](data/) folder.
     Bonder, Marc Jan, Stephen J. Clark, Felix Krueger, Siyuan Luo, João Agostinho De Sousa, Aida M. Hashtroud, Thomas M. Stubbs, et al. “scEpiAge: An Age Predictor Highlighting Single-Cell Ageing Heterogeneity in Mouse Blood.” Nature Communications 15, no. 1 (August 31, 2024): 7567. https://doi.org/10.1038/s41467-024-51833-5.
 </details>
 
-- Shavlakadze, Tea, Melody Morris, Jian Fang, Sharon X Wang, Weihua Zhou, Herman W Tse, Ricardo Mondragon-Gonzalez, Guglielmo Roma, and David J Glass. “[Age-Related Gene Expression Signatures (AGES) in Rats Demonstrate Early, Late, and Linear Transcriptional Changes from Multiple Tissues.](https://doi.org/10.1101/717835)” Preprint. Systems Biology, July 28, 2019 - AGES - multi-timepoint (6-27-month) age-related gene expression signature from liver, kidney, muscle, hippocampus of rats. [Supplementary Table S1 with data](https://www.cell.com/cell-reports/fulltext/S2211-1247(19)31091-5#secsectitle0155)
+- AGES is a multi-timepoint (6–27 months) age-related gene-expression signature from rat liver, kidney, muscle, and hippocampus. [Supplementary Table S1 with data](https://www.cell.com/cell-reports/fulltext/S2211-1247(19)31091-5#secsectitle0155) <details>
+    <summary>Paper</summary>
+    Shavlakadze, Tea, Melody Morris, Jian Fang, Sharon X. Wang, Weihua Zhou, Herman W. Tse, Ricardo Mondragon-Gonzalez, Guglielmo Roma, and David J. Glass. “[Age-Related Gene Expression Signatures (AGES) in Rats Demonstrate Early, Late, and Linear Transcriptional Changes from Multiple Tissues](https://doi.org/10.1101/717835).” Preprint, Systems Biology, July 28, 2019.
+</details>
 
-- BI Ageing Clock Team, Thomas M. Stubbs, Marc Jan Bonder, Anne-Katrien Stark, Felix Krueger, Ferdinand von Meyenn, Oliver Stegle, and Wolf Reik. “[Multi-Tissue DNA Methylation Age Predictor in Mouse.](https://doi.org/10.1186/s13059-017-1203-5)” Genome Biology 18, no. 1 (December 2017) - Mouse epigenetic age clock, 329 CpGs. Elastic net regression. [GitHub repo](https://github.com/EpigenomeClock/MouseEpigeneticClock)
+- Mouse epigenetic age clock based on 329 CpGs and elastic net regression. [GitHub repository](https://github.com/EpigenomeClock/MouseEpigeneticClock) <details>
+    <summary>Paper</summary>
+    BI Ageing Clock Team, Thomas M. Stubbs, Marc Jan Bonder, Anne-Katrien Stark, Felix Krueger, Ferdinand von Meyenn, Oliver Stegle, and Wolf Reik. “[Multi-Tissue DNA Methylation Age Predictor in Mouse](https://doi.org/10.1186/s13059-017-1203-5).” Genome Biology 18, no. 1 (December 2017).
+</details>
 
-- <a name="Petkovich_2017_mouse"></a>Petkovich, Daniel A., Dmitriy I. Podolskiy, Alexei V. Lobanov, Sang-Goo Lee, Richard A. Miller, and Vadim N. Gladyshev. "[Using DNA Methylation Profiling to Evaluate Biological Age and Longevity Interventions.](https://doi.org/10.1016/j.cmet.2017.03.016)" Cell Metabolism 25, no. 4 (April 4, 2017) - Mouse epigenetic clock predicting biological age. 90 CpGs, blood. Distinct from human epigenetic clock. Reduced Representation Bisulfite Sequencing. mm10 genomic coordinates are available in [Table S3](https://www.cell.com/cms/10.1016/j.cmet.2017.03.016/attachment/08ea219a-4d0a-430b-9062-0bc103e20c20/mmc4.xlsx), [Petkovich_2017_mouse.xlsx](data/Petkovich_2017_mouse.xlsx)
+- <a name="Petkovich_2017_mouse"></a>Mouse epigenetic clock predicting biological age from 90 blood CpGs. It is distinct from human epigenetic clocks and uses reduced-representation bisulfite sequencing. mm10 genomic coordinates are available in [Table S3](https://www.cell.com/cms/10.1016/j.cmet.2017.03.016/attachment/08ea219a-4d0a-430b-9062-0bc103e20c20/mmc4.xlsx) and [Petkovich_2017_mouse.xlsx](data/Petkovich_2017_mouse.xlsx). <details>
+    <summary>Paper</summary>
+    Petkovich, Daniel A., Dmitriy I. Podolskiy, Alexei V. Lobanov, Sang-Goo Lee, Richard A. Miller, and Vadim N. Gladyshev. “[Using DNA Methylation Profiling to Evaluate Biological Age and Longevity Interventions](https://doi.org/10.1016/j.cmet.2017.03.016).” Cell Metabolism 25, no. 4 (April 4, 2017).
+</details>
 
-- Wang, Tina, Brian Tsui, Jason F. Kreisberg, Neil A. Robertson, Andrew M. Gross, Michael Ku Yu, Hannah Carter, Holly M. Brown-Borg, Peter D. Adams, and Trey Ideker. “[Epigenetic Aging Signatures in Mice Livers Are Slowed by Dwarfism, Calorie Restriction and Rapamycin Treatment.](https://doi.org/10.1186/s13059-017-1186-2)” Genome Biology 18, no. 1 (28 2017) - [Source: Additional file 3](https://static-content.springer.com/esm/art%3A10.1186%2Fs13059-017-1186-2/MediaObjects/13059_2017_1186_MOESM3_ESM.xlsx)
+- Mouse liver epigenetic aging signatures are slowed by dwarfism, calorie restriction, and rapamycin treatment. [Source: Additional file 3](https://static-content.springer.com/esm/art%3A10.1186%2Fs13059-017-1186-2/MediaObjects/13059_2017_1186_MOESM3_ESM.xlsx) <details>
+    <summary>Paper</summary>
+    Wang, Tina, Brian Tsui, Jason F. Kreisberg, Neil A. Robertson, Andrew M. Gross, Michael Ku Yu, Hannah Carter, Holly M. Brown-Borg, Peter D. Adams, and Trey Ideker. “[Epigenetic Aging Signatures in Mice Livers Are Slowed by Dwarfism, Calorie Restriction and Rapamycin Treatment](https://doi.org/10.1186/s13059-017-1186-2).” Genome Biology 18, no. 1 (2017).
+</details>
 
-- Zahn, Jacob M, Suresh Poosala, Art B Owen, Donald K Ingram, Ana Lustig, Arnell Carter, Ashani T Weeraratna, et al. “[AGEMAP: A Gene Expression Database for Aging in Mice](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.0030201)” PLoS Genetics 3, no. 11 (2007): 12. - AGEMAP - atlas of gene expression in mouse aging project, \~9K genes, 16 tissues, over time. Neural, vascular, steroid processes affected in mice. Correlation across organisms is poor, only electron transport chain is commonly affected. Data is in the [supplementary tables](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.0030201#s5) and at http://cmgm.stanford.edu/~kimlab/aging_mouse/
+- AGEMAP is an atlas of age-related gene expression in mice, covering approximately 9,000 genes in 16 tissues over time. Neural, vascular, and steroid processes are affected; cross-organism correlation is poor, with only the electron transport chain commonly affected. Data are available in the [supplementary tables](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.0030201#s5) and at http://cmgm.stanford.edu/~kimlab/aging_mouse/. <details>
+    <summary>Paper</summary>
+    Zahn, Jacob M., Suresh Poosala, Art B. Owen, Donald K. Ingram, Ana Lustig, Arnell Carter, Ashani T. Weeraratna, et al. “[AGEMAP: A Gene Expression Database for Aging in Mice](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.0030201).” PLOS Genetics 3, no. 11 (2007): 12.
+</details>
 
 ## Reviews
 
-- Nwanaji-Enwerem, Jamaji C., Marc G. Weisskopf, and Andrea A. Baccarelli. “[Multi-Tissue DNA Methylation Age: Molecular Relationships and Perspectives for Advancing Biomarker Utility.](https://doi.org/10.1016/j.arr.2018.04.005)” Ageing Research Reviews 45 (August 2018) -  Human DNA methylation aging clock, its association with cancer, immune system, metabolism, cell- and nucleic acid processes. Key references to major studies. DNAm clock is different from telomere shortening, BMI, lower than expected in some cancers.
+- Review of the human DNA methylation aging clock and its associations with cancer, the immune system, metabolism, and cell and nucleic-acid processes. Provides key references to major studies and discusses how DNA methylation clocks differ from telomere shortening and BMI, including unexpectedly low age estimates in some cancers. <details>
+    <summary>Paper</summary>
+    Nwanaji-Enwerem, Jamaji C., Marc G. Weisskopf, and Andrea A. Baccarelli. “[Multi-Tissue DNA Methylation Age: Molecular Relationships and Perspectives for Advancing Biomarker Utility](https://doi.org/10.1016/j.arr.2018.04.005).” Ageing Research Reviews 45 (August 2018).
+</details>
 
-- Horvath, Steve, and Kenneth Raj. “[DNA Methylation-Based Biomarkers and the Epigenetic Clock Theory of Ageing.](https://doi.org/10.1038/s41576-018-0004-3)” Nature Reviews Genetics, April 11, 2018 - Epigenetic clock review. Horvath clock, Hannum, PhenoAge, other developments. Age-related conditions linked to epigenetic age. Epigenetic age is 40% heritable.
+- Review of epigenetic clocks, including the Horvath and Hannum clocks, PhenoAge, and later developments. Discusses age-related conditions linked to epigenetic age and estimates that epigenetic age is 40% heritable. <details>
+    <summary>Paper</summary>
+    Horvath, Steve, and Kenneth Raj. “[DNA Methylation-Based Biomarkers and the Epigenetic Clock Theory of Ageing](https://doi.org/10.1038/s41576-018-0004-3).” Nature Reviews Genetics, April 11, 2018.
+</details>
 
-- Field, Adam E., Neil A. Robertson, Tina Wang, Aaron Havas, Trey Ideker, and Peter D. Adams. “[DNA Methylation Clocks in Aging: Categories, Causes, and Consequences.](https://doi.org/10.1016/j.molcel.2018.08.008)” Molecular Cell 71, no. 6 (September 2018) - Review of DNA methylation age clocks. The dynamic nature of DNA methylation. References to methylation clock studies in humans, mice, other organisms. Clocks derived from multiple tissue data. Poor overlap among studies. Latest specialized clocks like EpiTOC, PhenoAge,  Box 1 - penalized regression framework for epigenetic clock.
+- Review of DNA methylation age clocks and the dynamic nature of DNA methylation. Covers clock studies in humans, mice, and other organisms; multi-tissue clocks; limited overlap among studies; and specialized clocks such as EpiTOC and PhenoAge. Includes a penalized-regression framework for epigenetic clocks. <details>
+    <summary>Paper</summary>
+    Field, Adam E., Neil A. Robertson, Tina Wang, Aaron Havas, Trey Ideker, and Peter D. Adams. “[DNA Methylation Clocks in Aging: Categories, Causes, and Consequences](https://doi.org/10.1016/j.molcel.2018.08.008).” Molecular Cell 71, no. 6 (September 2018).
+</details>
 
-- Wagner, Wolfgang. “[Epigenetic Aging Clocks in Mice and Men.](https://doi.org/10.1186/s13059-017-1245-8)” Genome Biology 18, no. 1 (14 2017) - - Short review about methylation (epigenetic) age clock in human and mice. Direct overlap is low, morphogenesis and development are general themes of functional enrichment. [Table 1](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1245-8#Tab1) listing epigenetic clock studies and their features.
+- Short review of methylation-based age clocks in humans and mice. Direct overlap is low, while morphogenesis and development are general themes of functional enrichment. [Table 1](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1245-8#Tab1) lists epigenetic clock studies and their features. <details>
+    <summary>Paper</summary>
+    Wagner, Wolfgang. “[Epigenetic Aging Clocks in Mice and Men](https://doi.org/10.1186/s13059-017-1245-8).” Genome Biology 18, no. 1 (2017).
+</details>
 
 
 ## Misc
